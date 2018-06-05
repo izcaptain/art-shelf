@@ -1,0 +1,27 @@
+.header {
+  align-items: center;
+  background: cornsilk;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header__logo {
+  background: plum;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 10px;
+}
+
+.header__settings {
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid;
+  color: plum;
+  display: flex;
+  font-weight: bold;
+  height: 24px;
+  justify-content: center;
+  width: 24px;
+}
