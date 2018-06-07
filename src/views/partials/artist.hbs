@@ -1,9 +1,11 @@
-<div class="card artist" style="width: 30rem;">
+<div class="card artist {{type}}" style="width: 30rem;">
   <img class="artist__image card-img-top" src="images/{{image}}" alt="">
-  <h3>{{name}}</h3>
-  <p>{{genre}}</p>
-  <p>from {{location}}</p>
-  <p>{{description}}</p>
+  <div class="artist__info">
+    <h3>{{name}}</h3>
+    <p>{{genre}}</p>
+    <p>from: {{location}}</p>
+    <p>{{description}}</p>
+  </div>
   <footer class="artist__footer">
     <a href="https://www.facebook.com/woken.hamburg">
       <img src="images/facebook.png" alt="">

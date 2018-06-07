@@ -6301,17 +6301,18 @@ body {
   flex-wrap: wrap; }
 
 .artist {
-  margin-top: 3px;
-  margin-right: 3px;
-  margin-bottom: 3px;
+  margin: 3px 3px 3px 0px;
   background: aliceblue; }
 
 .artist__image {
   padding: 3px; }
 
 .artist__footer {
-  margin: 5px;
+  margin: auto 5px 5px 5px;
   display: flex;
   justify-content: space-around; }
+
+.artist__info {
+  margin: 5px; }
 
 /*# sourceMappingURL=style.css.map */
