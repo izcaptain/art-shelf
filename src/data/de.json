@@ -1,4 +1,24 @@
 {
-  "title": "Meine App",
-  "intro": "Willkommen zu meiner App."
+  "title": "artist-shelf",
+  "intro": "Willkommen",
+  "artists": [
+    {
+      "name": "Jerry",
+      "image": "placeholder-man.png",
+      "genre": "Coding",
+      "location": "Adendorf",
+      "description": "A coding guy"
+    },
+    {
+      "name": "Lars",
+      "image": "placeholder-man.png",
+      "genre": "Stories",
+      "location": "Hamburg",
+      "description": "Another guy"
+    }
+  ],
+  "imprint": {
+    "title": "Impressum",
+    "text": "Das ist das Impressum"
+  }
 }
