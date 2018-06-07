@@ -1,4 +1,74 @@
 {
-  "title": "Meine App",
-  "intro": "Willkommen zu meiner App."
+  "title": "artist-shelf",
+  "intro": "Willkommen",
+  "artists": [
+    {
+      "name": "WOKEN",
+      "image": "placeholder-man.png",
+      "genre": "Techno and Deephouse",
+      "location": "Hamburg",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "dj"
+    },
+    {
+      "name": "Sascha Erinome",
+      "image": "placeholder-man.png",
+      "genre": "electronika and organic",
+      "location": "Hamburg",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "dj"
+    },
+    {
+      "name": "Mischback",
+      "image": "placeholder-man.png",
+      "genre": "HipHop Funk Soul",
+      "location": "Hamburg",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "dj"
+    },
+    {
+      "name": "JonaGold",
+      "image": "placeholder-man.png",
+      "genre": "HipHop Funk Soul",
+      "location": "Kiel",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "dj"
+    },
+    {
+      "name": "Loyft",
+      "image": "placeholder-man.png",
+      "genre": "Stonerrock",
+      "location": "Itzehoe",
+      "description": "blablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabllablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "band"
+    },
+    {
+      "name": "Baconanas",
+      "image": "placeholder-man.png",
+      "genre": "Garagrock",
+      "location": "Glückstadt",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "band"
+    },
+    {
+      "name": "EaglsFive",
+      "image": "placeholder-man.png",
+      "genre": "Skatepunk",
+      "location": "Hamburg",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "band"
+    },
+    {
+      "name": "Andre Welt",
+      "image": "placeholder-man.png",
+      "genre": "Liedermacher",
+      "location": "Berlin",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "band"
+    }
+  ],
+  "imprint": {
+    "title": "Impressum",
+    "text": "Das ist das Impressum"
+  }
 }

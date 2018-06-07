@@ -3,7 +3,7 @@ var router = express.Router()
 
 /* GET imprint page. */
 router.get('/', function(req, res, next) {
-  res.render('imprint')
+  res.render('imprint', require(__dirname + '../../data/de.json'))
 })
 
 module.exports = router

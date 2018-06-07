@@ -10107,8 +10107,6 @@ var _Header2 = _interopRequireDefault(_Header);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var header = new _Header2.default('[data-module-header]');
-
 /***/ }),
 
 /***/ "./src/js/utils/helpers.js":

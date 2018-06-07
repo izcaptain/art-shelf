@@ -6290,28 +6290,29 @@ body {
   background: aliceblue; }
 
 .header {
-  align-items: center;
-  background: cornsilk;
+  background: lightgrey;
   display: flex;
-  height: 80px;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px; }
 
-.header__logo {
-  background: plum;
-  border-radius: 4px;
-  color: white;
-  padding: 4px 10px; }
-
-.header__settings {
-  align-items: center;
-  border-radius: 50%;
-  border: 2px solid;
-  color: plum;
+.artist-list {
   display: flex;
-  font-weight: bold;
-  height: 24px;
   justify-content: center;
-  width: 24px; }
+  flex-wrap: wrap; }
+
+.artist {
+  margin: 3px 3px 3px 0px;
+  background: aliceblue; }
+
+.artist__image {
+  padding: 3px; }
+
+.artist__footer {
+  margin: auto 5px 5px 5px;
+  display: flex;
+  justify-content: space-around; }
+
+.artist__info {
+  margin: 5px; }
 
 /*# sourceMappingURL=style.css.map */
