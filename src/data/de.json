@@ -105,5 +105,23 @@
   "imprint": {
     "title": "Impressum",
     "text": "Das ist das Impressum"
-  }
+  },
+  "headlines": [
+    {
+      "className": "all",
+      "text": "Alle Künstler"
+    },
+    {
+      "className": "dj hidden",
+      "text": "Alle DJs"
+    },
+    {
+      "className": "band hidden",
+      "text": "Alle Bands"
+    },
+    {
+      "className": "art hidden",
+      "text": "Alle Maler"
+    }
+  ]
 }
