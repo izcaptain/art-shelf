@@ -3,20 +3,22 @@
   "intro": "Willkommen",
   "artists": [
     {
-      "name": "WOKEN",
-      "image": "placeholder-man.png",
-      "genre": "Techno and Deephouse",
-      "location": "Hamburg",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
-      "type": "dj"
-    },
-    {
       "name": "Sascha Erinome",
       "image": "placeholder-man.png",
       "genre": "electronika and organic",
       "location": "Hamburg",
       "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
-      "type": "dj"
+      "type": "dj",
+      "facebook": "https://www.facebook.com/surizb/"
+    },
+    {
+      "name": "WOKEN",
+      "image": "placeholder-man.png",
+      "genre": "Techno and Deephouse",
+      "location": "Hamburg",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/woken.hamburg/"
     },
     {
       "name": "Mischback",
@@ -24,7 +26,8 @@
       "genre": "HipHop Funk Soul",
       "location": "Hamburg",
       "description": "blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
-      "type": "dj"
+      "type": "dj",
+      "facebook": "https://www.facebook.com/broszat.michael"
     },
     {
       "name": "JonaGold",
@@ -32,7 +35,8 @@
       "genre": "HipHop Funk Soul",
       "location": "Kiel",
       "description": "blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
-      "type": "dj"
+      "type": "dj",
+      "facebook": "https://www.facebook.com/jona.gold.9"
     },
     {
       "name": "Loyft",
@@ -40,7 +44,8 @@
       "genre": "Stonerrock",
       "location": "Itzehoe",
       "description": "blablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabllablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
-      "type": "band"
+      "type": "band",
+      "facebook": "https://www.facebook.com/loyft69/"
     },
     {
       "name": "Baconanas",
@@ -48,7 +53,8 @@
       "genre": "Garagrock",
       "location": "Glückstadt",
       "description": "blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
-      "type": "band"
+      "type": "band",
+      "facebook": "https://www.facebook.com/thebaconanas/"
     },
     {
       "name": "EaglsFive",
@@ -56,7 +62,8 @@
       "genre": "Skatepunk",
       "location": "Hamburg",
       "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
-      "type": "band"
+      "type": "band",
+      "facebook": "https://www.facebook.com/eaglefiveband/"
     },
     {
       "name": "Andre Welt",
@@ -64,7 +71,35 @@
       "genre": "Liedermacher",
       "location": "Berlin",
       "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
-      "type": "band"
+      "type": "band",
+      "facebook": "https://www.facebook.com/andre.welt.1"
+    },
+    {
+      "name": "Aktion",
+      "image": "placeholder-man.png",
+      "genre": "graffiti",
+      "location": "Itzehoe",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "art",
+      "facebook": "https://www.facebook.com/tommy.nyssen"
+    },
+    {
+      "name": "Aktion",
+      "image": "placeholder-man.png",
+      "genre": "graffiti",
+      "location": "Itzehoe",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "art",
+      "facebook": "https://www.facebook.com/tommy.nyssen"
+    },
+    {
+      "name": "Mona Wiegers",
+      "image": "placeholder-man.png",
+      "genre": "",
+      "location": "fr",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "art",
+      "facebook": "https://www.facebook.com/mona.wiegers"
     }
   ],
   "imprint": {
