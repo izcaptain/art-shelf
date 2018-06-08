@@ -6287,7 +6287,7 @@ body {
 
 .hidden,
 [hidden] {
-  background: aliceblue; }
+  display: none; }
 
 .header {
   background: lightgrey;
@@ -6308,11 +6308,22 @@ body {
   padding: 3px; }
 
 .artist__footer {
-  margin: auto 5px 5px 5px;
+  margin: auto 5px 10px 5px;
   display: flex;
   justify-content: space-around; }
 
 .artist__info {
   margin: 5px; }
+
+nav {
+  display: flex;
+  justify-content: space-around; }
+
+button {
+  border-radius: 20%;
+  background: greenyellow;
+  height: 40px;
+  width: 60px;
+  border: solid grey 2px; }
 
 /*# sourceMappingURL=style.css.map */

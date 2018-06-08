@@ -1,4 +1,3 @@
 import $ from 'jquery'
-import Header from './Header.js'
-
-//const header = new Header('[data-module-header]')
+import FilterButtons from './FilterButtons.js'
+const filterButtons = new FilterButtons('[data-filter-buttons]')

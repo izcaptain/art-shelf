@@ -65,6 +65,14 @@
       "location": "Berlin",
       "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
       "type": "band"
+    },
+    {
+      "name": "Mona Wiegers",
+      "image": "placeholder-man.png",
+      "genre": "art",
+      "location": "fr",
+      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "type": "artist"
     }
   ],
   "imprint": {

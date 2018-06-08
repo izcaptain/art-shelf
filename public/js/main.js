@@ -10040,10 +10040,10 @@ module.exports = function (module) {
 
 /***/ }),
 
-/***/ "./src/js/Header.js":
-/*!**************************!*\
-  !*** ./src/js/Header.js ***!
-  \**************************/
+/***/ "./src/js/FilterButtons.js":
+/*!*********************************!*\
+  !*** ./src/js/FilterButtons.js ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10060,30 +10060,41 @@ var _helpers = __webpack_require__(/*! ./utils/helpers.js */ "./src/js/utils/hel
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var Header = function () {
-  function Header(sel) {
+var FilterButtons = function () {
+  function FilterButtons(sel) {
     var _this = this;
 
-    _classCallCheck(this, Header);
+    _classCallCheck(this, FilterButtons);
 
     this.el = (0, _helpers.getOne)(sel);
-    this.btn = this.el.querySelector('.js-settings');
-    this.btn.addEventListener('click', function (e) {
-      return _this.onClick(e);
+    this.artists = (0, _helpers.getAll)('.artist');
+
+    var buttons = Array.from(this.el.querySelectorAll('button'));
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function (e) {
+        return _this.onClick(e);
+      });
     });
   }
 
-  _createClass(Header, [{
+  _createClass(FilterButtons, [{
     key: 'onClick',
     value: function onClick(event) {
-      console.log('clicked settings button');
+      var id = event.target.id;
+      this.artists.forEach(function (artist) {
+        if (artist.classList.contains(id)) {
+          artist.classList.remove('hidden');
+        } else {
+          artist.classList.add('hidden');
+        }
+      });
     }
   }]);
 
-  return Header;
+  return FilterButtons;
 }();
 
-exports.default = Header;
+exports.default = FilterButtons;
 
 /***/ }),
 
@@ -10101,11 +10112,13 @@ var _jquery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jque
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var _Header = __webpack_require__(/*! ./Header.js */ "./src/js/Header.js");
+var _FilterButtons = __webpack_require__(/*! ./FilterButtons.js */ "./src/js/FilterButtons.js");
 
-var _Header2 = _interopRequireDefault(_Header);
+var _FilterButtons2 = _interopRequireDefault(_FilterButtons);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var filterButtons = new _FilterButtons2.default('[data-filter-buttons]');
 
 /***/ }),
 
