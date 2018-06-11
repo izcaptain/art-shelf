@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon -w bin -w data -w routes -w views ./bin/www | npx webpack",
+    "start": "nodemon -w bin -w src/data -w routes -w views ./bin/www | npx webpack",
     "now-start": "NODE_ENV=production node ./bin/www"
   },
   "dependencies": {

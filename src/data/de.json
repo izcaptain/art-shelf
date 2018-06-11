@@ -123,5 +123,23 @@
       "className": "art hidden",
       "text": "Alle Maler"
     }
+  ],
+  "footerline": [
+    {
+      "key": "all",
+      "string": "...du hast zu tief gescrollt!!!"
+    },
+    {
+      "key": "dj hidden",
+      "string": "...hier gibt es nicht mehr zu sehen, bitte gehen sie weiter!"
+    },
+    {
+      "key": "band hidden",
+      "string": "guck in die luft"
+    },
+    {
+      "key": "art hidden",
+      "string": "ab hier beginnt der untergrund"
+    }
   ]
 }

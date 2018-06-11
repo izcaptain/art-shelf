@@ -10071,6 +10071,7 @@ var FilterButtons = function () {
     this.el = (0, _helpers.getOne)(sel);
     this.artists = (0, _helpers.getAll)('.artist');
     this.filterHeadlines = (0, _helpers.getAll)('.filter-headlines h1');
+    this.filterFooterline = (0, _helpers.getAll)('.filter-footerline h3');
 
     var buttons = Array.from(this.el.querySelectorAll('button'));
     buttons.forEach(function (button) {
@@ -10090,6 +10091,15 @@ var FilterButtons = function () {
           headline.classList.remove('hidden');
         } else {
           headline.classList.add('hidden');
+        }
+      });
+
+      this.filterFooterline.forEach(function (footerline) {
+        if (footerline.classList.contains(id)) {
+          footerline.classList.remove('hidden');
+        } else {
+          footerline.classList.add('hidden');
+          console.log(footerline);
         }
       });
 
