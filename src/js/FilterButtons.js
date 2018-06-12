@@ -6,7 +6,7 @@ export default class FilterButtons {
   constructor(sel) {
     this.el = getOne(sel)
     this.artists = getAll('.artist')
-    this.filterHeadlines = getAll('.filter-headlines h1')
+    this.filterHeadlines = getAll('.filter-headlines h4')
     this.filterFooterline = getAll('.filter-footerline h3')
 
     const buttons = Array.from(this.el.querySelectorAll('button'))

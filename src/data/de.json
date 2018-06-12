@@ -3,103 +3,364 @@
   "intro": "Willkommen",
   "artists": [
     {
-      "name": "Sascha Erinome",
-      "image": "placeholder-man.png",
+      "name": "sascha erinome",
+      "image": "erinome.jpg",
       "genre": "electronika and organic",
-      "location": "Hamburg",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "location": "hamburg",
+      "description": "dj von der bootsvolk crew",
       "type": "dj",
-      "facebook": "https://www.facebook.com/surizb/"
+      "facebook": "https://www.facebook.com/surizb/",
+      "example": "http://bootsvolk.de/"
     },
     {
-      "name": "WOKEN",
-      "image": "placeholder-man.png",
-      "genre": "Techno and Deephouse",
-      "location": "Hamburg",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "name": "woken",
+      "image": "woken.jpg",
+      "genre": "techhouse, dubtechno",
+      "location": "hamburg",
+      "description": "immer für einen gig zu haben",
       "type": "dj",
-      "facebook": "https://www.facebook.com/woken.hamburg/"
+      "facebook": "https://www.facebook.com/woken.hamburg/",
+      "example": "https://soundcloud.com/woken_hh"
     },
     {
-      "name": "Mischback",
-      "image": "placeholder-man.png",
+      "name": "mischback",
+      "image": "mischback.jpg",
       "genre": "HipHop Funk Soul",
-      "location": "Hamburg",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "location": "hamburg",
+      "description": "angehörig zur hängman gang im souledge",
       "type": "dj",
-      "facebook": "https://www.facebook.com/broszat.michael"
+      "facebook": "https://www.facebook.com/broszat.michael",
+      "example": "https://soundcloud.com/mischback1/elements-mixtape-2014"
     },
     {
-      "name": "JonaGold",
-      "image": "placeholder-man.png",
-      "genre": "HipHop Funk Soul",
-      "location": "Kiel",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "name": "jonagold",
+      "image": "jonagold.jpg",
+      "genre": "hiphop funk soul",
+      "location": "kiel",
+      "description": "beatbauer und plattenpflüger aus dem herzen von kiel",
       "type": "dj",
-      "facebook": "https://www.facebook.com/jona.gold.9"
+      "facebook": "https://www.facebook.com/jona.gold.9",
+      "example": "https://soundcloud.com/jona_gold"
     },
     {
-      "name": "Loyft",
-      "image": "placeholder-man.png",
-      "genre": "Stonerrock",
-      "location": "Itzehoe",
-      "description": "blablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabllablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "name": "loyft",
+      "image": "loyft.jpg",
+      "genre": "stonerrock",
+      "location": "itzehoe",
+      "description": "loyft die stonerband aus dem norden",
       "type": "band",
-      "facebook": "https://www.facebook.com/loyft69/"
+      "facebook": "https://www.facebook.com/loyft69/",
+      "example": "https://www.youtube.com/watch?v=FUr8N_C-DEU"
     },
     {
-      "name": "Baconanas",
-      "image": "placeholder-man.png",
-      "genre": "Garagrock",
-      "location": "Glückstadt",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "name": "the baconanas",
+      "image": "baconanas.png",
+      "genre": "garagrock",
+      "location": "glückstadt",
+      "description": "garagerock aus den norddeutschen hinterland",
       "type": "band",
-      "facebook": "https://www.facebook.com/thebaconanas/"
+      "facebook": "https://www.facebook.com/thebaconanas/",
+      "example": "https://www.youtube.com/watch?v=ojc3Tl3hNmI"
     },
     {
-      "name": "EaglsFive",
-      "image": "placeholder-man.png",
-      "genre": "Skatepunk",
-      "location": "Hamburg",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "name": "eaglefive",
+      "image": "ef.jpg",
+      "genre": "skatepunk",
+      "location": "hamburg",
+      "description": "haben sich wieder gefunden um zu eskalieren",
       "type": "band",
-      "facebook": "https://www.facebook.com/eaglefiveband/"
+      "facebook": "https://www.facebook.com/eaglefiveband/",
+      "example": "https://soundcloud.com/user-486048786"
     },
     {
-      "name": "Andre Welt",
-      "image": "placeholder-man.png",
+      "name": "andre welt",
+      "image": "andrewelt.jpg",
       "genre": "Liedermacher",
-      "location": "Berlin",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "location": "berlin",
+      "description": "liedermacher mit einer eigener weltansicht",
       "type": "band",
-      "facebook": "https://www.facebook.com/andre.welt.1"
+      "facebook": "https://www.facebook.com/andre.welt.1",
+      "example": "https://soundcloud.com/andrewelt/konigin-der-nacht"
     },
     {
-      "name": "Aktion",
-      "image": "placeholder-man.png",
+      "name": "aktion",
+      "image": "aktion.jpg",
       "genre": "graffiti",
       "location": "Itzehoe",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "description": "writer der kdp crew",
       "type": "art",
-      "facebook": "https://www.facebook.com/tommy.nyssen"
+      "facebook": "https://www.facebook.com/tommy.nyssen",
+      "example": ""
     },
     {
-      "name": "Aktion",
-      "image": "placeholder-man.png",
+      "name": "wiebke logemann",
+      "image": "wiebke.jpg",
+      "genre": "art and visual",
+      "location": "oldendorf",
+      "description": "malerin und illustartorin",
+      "type": "art",
+      "facebook": "https://www.facebook.com/wiebke.logemann.1",
+      "example": "https://www.wiebke-logemann.de/"
+    },
+    {
+      "name": "mona wiegers",
+      "image": "mona.jpg",
+      "genre": "painting",
+      "location": "frankreich",
+      "description": "angehende künstlerin die sich mit verschiedensten mitteln und techniken auseinader setzt",
+      "type": "art",
+      "facebook": "https://www.facebook.com/mona.wiegers",
+      "example": ""
+    },
+    {
+      "name": "manuel zint",
+      "image": "zint.jpg",
+      "genre": "art painting ect",
+      "location": "itzehoe",
+      "description": "seine werken beinhalten mehr als nur ein style oder schöpfungsart. das gesamt werk eine illusion die geschaffen wurde, um daran zu glauben.",
+      "type": "art",
+      "facebook": "https://www.facebook.com/manuel.zint",
+      "example": "http://www.manuelzint.de/arbeiten.html"
+    },
+    {
+      "name": "requiem89",
+      "image": "requiem.jpg",
+      "genre": "graffiti modernart streetart",
+      "location": "berlin",
+      "description": "writer der kdp crew",
+      "type": "art",
+      "facebook": "https://www.facebook.com/requiem89original/",
+      "example": "https://www.flickr.com/photos/requiem89/"
+    },
+    {
+      "name": "nicolas wiese",
+      "image": "nicolas.jpg",
+      "genre": "painting visuals soundexperimental",
+      "location": "berlin",
+      "description": "for more information klick on the i-button",
+      "type": "art",
+      "facebook": "https://www.facebook.com/nicolas.wiese",
+      "example": "http://nicolaswiese.com/"
+    },
+    {
+      "name": "stefan sczostak",
+      "image": "wery.jpg",
+      "genre": "photography graffiti",
+      "location": "berlin",
+      "description": "writer der kdp crew",
+      "type": "art",
+      "facebook": "https://www.facebook.com/stefan.sczostak",
+      "example": "https://www.facebook.com/StefanSczostakPhotography/"
+    },
+    {
+      "name": "angel10",
+      "image": "angel10.jpg",
       "genre": "graffiti",
-      "location": "Itzehoe",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "location": "south-germany",
+      "description": "writer der kdp crew",
       "type": "art",
-      "facebook": "https://www.facebook.com/tommy.nyssen"
+      "facebook": "https://www.facebook.com/Angel-10-411264865917855/",
+      "example": ""
     },
     {
-      "name": "Mona Wiegers",
-      "image": "placeholder-man.png",
-      "genre": "",
-      "location": "fr",
-      "description": "blablablablablablablablablablablablablablablablablablablablablablablablabla",
+      "name": "vollka putt",
+      "image": "vollkaputt.jpg",
+      "genre": "rap",
+      "location": "hamburg",
+      "description": "man munkelt ob arno dübel es sich bei vollka putt abgeguckt hat oder umgekehrt",
+      "type": "band",
+      "facebook": "https://www.facebook.com/VollkaPutt.Hamburg/",
+      "example": "https://soundcloud.com/presslufthanna"
+    },
+    {
+      "name": "presslufthanna",
+      "image": "presslufthanna.jpg",
+      "genre": "rap",
+      "location": "kiel",
+      "description": "politischer rap aus kiel",
+      "type": "band",
+      "facebook": "https://www.facebook.com/Presslufthanna/",
+      "example": "https://soundcloud.com/presslufthanna"
+    },
+    {
+      "name": "soma rausch",
+      "image": "soma.jpg",
+      "genre": "cosmo housemusic",
+      "location": "kiel",
+      "description": "bekannt für cosmischen klang fern vom mainstream",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/Presslufthanna/",
+      "example": "https://soundcloud.com/somarausch"
+    },
+    {
+      "name": "gunfire h. horibly",
+      "image": "gunfire.jpg",
+      "genre": "funk soul disco hiphop",
+      "location": "kiel",
+      "description": "only vinyl, only vinyl",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/horibly",
+      "example": ""
+    },
+    {
+      "name": "wobadubsoundsystem",
+      "image": "wobadub.jpg",
+      "genre": "dub",
+      "location": "kiel",
+      "description": "kommt mit seinen eigenen soundsystem daher um es so zu machen wie seine vorbilder von der insel. feinster dubsound aus kielefornia",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/WobadubSoundsystem/",
+      "example": "https://soundcloud.com/wobadubsoundsystem"
+    },
+    {
+      "name": "mofan",
+      "image": "mofan.jpg",
+      "genre": "dnb dubstep",
+      "location": "itzehoe",
+      "description": "dj der bootsvolk crew",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/surizb/",
+      "example": "http://bootsvolk.de/"
+    },
+    {
+      "name": "minke kurios",
+      "image": "minke.jpg",
+      "genre": "deephouse",
+      "location": "hamburg",
+      "description": "dj der bootsvolk crew",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/surizb/",
+      "example": "http://bootsvolk.de/"
+    },
+    {
+      "name": "gyrgen",
+      "image": "gyrgen.jpg",
+      "genre": "electro cumbia",
+      "location": "itzehoe",
+      "description": "dj der bootsvolk crew",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/surizb/",
+      "example": "http://bootsvolk.de/"
+    },
+    {
+      "name": "captain",
+      "image": "cap.jpg",
+      "genre": "electronica/ dub / dnb",
+      "location": "hamburg",
+      "description": "dj der bootsvolk crew",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/surizb/",
+      "example": "https://soundcloud.com/izcaptain/ubasteuert-tape"
+    },
+    {
+      "name": "moritz schreyer",
+      "image": "moe.jpg",
+      "genre": "photography graffiti",
+      "location": "Hamburg",
+      "description": "writer der kdp crew",
       "type": "art",
-      "facebook": "https://www.facebook.com/mona.wiegers"
+      "facebook": "https://www.facebook.com/moritz.laut",
+      "example": "https://www.facebook.com/Leichtsinn-285338778146747/"
+    },
+    {
+      "name": "sebastian krüger",
+      "image": "seb.jpg",
+      "genre": "techno deephouse electronica",
+      "location": "hamburg",
+      "description": "dj bei bössebässe",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/sebastian.kruger.754",
+      "example": ""
+    },
+    {
+      "name": "fahrradkinokombinat",
+      "image": "fkk.jpg",
+      "genre": "community for music/ cinema/ art",
+      "location": "kiel",
+      "description": "pflegt und hegt ein autarkes mobiles fahrradkino... und noch vieles mehr",
+      "type": "art",
+      "facebook": "https://www.facebook.com/fahrradkinokombinat/",
+      "example": "http://fahrradkinokombinat.blogsport.eu/"
+    },
+    {
+      "name": "ddob",
+      "image": "ddob.jpg",
+      "genre": "beatproducer",
+      "location": "kiel",
+      "description": "junger beatbauer mit großen talent, sehr klassische hiphop beats zu bauen",
+      "type": "band",
+      "facebook": "https://www.facebook.com/DoubleDob/",
+      "example": "https://soundcloud.com/ddobe"
+    },
+    {
+      "name": "nuts an den cuts",
+      "image": "nuts.jpg",
+      "genre": "hiphop funk soul",
+      "location": "hamburg",
+      "description": "stresemanngang hh",
+      "type": "dj",
+      "facebook": "www.facebook.com/00011456931788",
+      "example": ""
+    },
+    {
+      "name": "yoki",
+      "image": "yoki.jpg",
+      "genre": "techno electronica",
+      "location": "hamburg",
+      "description": "if you know, you know it",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/manes.sky",
+      "example": ""
+    },
+    {
+      "name": "phil irie",
+      "image": "phil.jpg",
+      "genre": "jungle dancehall raggae",
+      "location": "north-germany",
+      "description": "vinyl, only vinyl",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/philipp.itownnational",
+      "example": "https://soundcloud.com/phil-irie/short-jungle-mixwav"
+    },
+    {
+      "name": "agung gurung",
+      "image": "agu.jpg",
+      "genre": "krautrock",
+      "location": "Itzehoe",
+      "description": "klassischer krautrock landet wieder im 2. jahrtausend",
+      "type": "band",
+      "facebook": "https://www.facebook.com/agunggurung/",
+      "example": "http://www.agung-gurung.de/"
+    },
+    {
+      "name": "wiezeman",
+      "image": "w.jpg",
+      "genre": "funk/ soul",
+      "location": "hamburg",
+      "description": "classic music from the northcoast",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/Wizeman72",
+      "example": ""
+    },
+    {
+      "name": "saskia de kleijn",
+      "image": "saskia.jpg",
+      "genre": "painting",
+      "location": "Itzehoe",
+      "description": "push the info button",
+      "type": "art",
+      "facebook": "https://www.facebook.com/saskia.dekleijn",
+      "example": "http://saskiadekleijn.blogspot.com/"
+    },
+    {
+      "name": "bootsvolk / schall und rausch",
+      "image": "boots.png",
+      "genre": "dj collective",
+      "location": "Itzehoe Hamburg",
+      "description": "ein unkommerzielles kollektiv das sich nicht nur um das reine auflegen kümmert sonder auch um gestaltung jeglicher art",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/surizb/",
+      "example": "http://bootsvolk.de/"
     }
   ],
   "imprint": {
@@ -109,19 +370,19 @@
   "headlines": [
     {
       "className": "all",
-      "text": "Alle Künstler"
+      "text": "everybody"
     },
     {
       "className": "dj hidden",
-      "text": "Alle DJs"
+      "text": "all djs"
     },
     {
       "className": "band hidden",
-      "text": "Alle Bands"
+      "text": "all bands"
     },
     {
       "className": "art hidden",
-      "text": "Alle Maler"
+      "text": "art category"
     }
   ],
   "footerline": [

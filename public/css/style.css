@@ -6285,6 +6285,10 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: 'Song Myung', serif; }
 
+h4 {
+  display: flex;
+  justify-content: center; }
+
 .hidden,
 [hidden] {
   display: none; }
@@ -6296,13 +6300,24 @@ body {
   padding: 20px; }
 
 .artist-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
+  margin: 0 auto;
+  columns: 1;
+  width: 100%;
+  transition: all 0.5s ease; }
+  @media (min-width: 580px) {
+    .artist-list {
+      columns: 2; } }
+  @media (min-width: 950px) {
+    .artist-list {
+      width: 80%; } }
+  @media (min-width: 1200px) {
+    .artist-list {
+      width: 50%; } }
 
 .artist {
   margin: 3px 3px 3px 0px;
-  background: aliceblue; }
+  background: aliceblue;
+  -webkit-column-break-inside: avoid; }
 
 .artist__image {
   padding: 3px; }

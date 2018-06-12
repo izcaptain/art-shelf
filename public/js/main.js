@@ -10070,7 +10070,7 @@ var FilterButtons = function () {
 
     this.el = (0, _helpers.getOne)(sel);
     this.artists = (0, _helpers.getAll)('.artist');
-    this.filterHeadlines = (0, _helpers.getAll)('.filter-headlines h1');
+    this.filterHeadlines = (0, _helpers.getAll)('.filter-headlines h4');
     this.filterFooterline = (0, _helpers.getAll)('.filter-footerline h3');
 
     var buttons = Array.from(this.el.querySelectorAll('button'));
