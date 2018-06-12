@@ -10060,6 +10060,8 @@ var _helpers = __webpack_require__(/*! ./utils/helpers.js */ "./src/js/utils/hel
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+var placeholder = document.querySelector('.placeholder');
+
 var FilterButtons = function () {
   function FilterButtons(sel) {
     var _this = this;
@@ -10068,6 +10070,8 @@ var FilterButtons = function () {
 
     this.el = (0, _helpers.getOne)(sel);
     this.artists = (0, _helpers.getAll)('.artist');
+    this.filterHeadlines = (0, _helpers.getAll)('.filter-headlines h4');
+    this.filterFooterline = (0, _helpers.getAll)('.filter-footerline h3');
 
     var buttons = Array.from(this.el.querySelectorAll('button'));
     buttons.forEach(function (button) {
@@ -10081,6 +10085,24 @@ var FilterButtons = function () {
     key: 'onClick',
     value: function onClick(event) {
       var id = event.target.id;
+
+      this.filterHeadlines.forEach(function (headline) {
+        if (headline.classList.contains(id)) {
+          headline.classList.remove('hidden');
+        } else {
+          headline.classList.add('hidden');
+        }
+      });
+
+      this.filterFooterline.forEach(function (footerline) {
+        if (footerline.classList.contains(id)) {
+          footerline.classList.remove('hidden');
+        } else {
+          footerline.classList.add('hidden');
+          console.log(footerline);
+        }
+      });
+
       this.artists.forEach(function (artist) {
         if (artist.classList.contains(id)) {
           artist.classList.remove('hidden');

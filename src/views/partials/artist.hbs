@@ -1,20 +1,20 @@
-<div class="card artist all {{type}}" style="width: 30rem;">
+<div class="card artist all {{type}}">
   <img class="artist__image card-img-top" src="images/{{image}}" alt="">
-  <div class="artist__info">
+  <div class="artist__info artist__img">
     <h3>{{name}}</h3>
     <p>{{genre}}</p>
     <p>from: {{location}}</p>
     <p>{{description}}</p>
   </div>
   <footer class="artist__footer">
+    {{#if facebook }}
     <a href="{{facebook}}">
       <img src="images/facebook.png" alt="">
     </a>
-    <a href="#">
-      <img src="images/soundcloud.png" alt="">
+    {{/if}} {{#if example }}
+    <a href="{{example}}">
+      <img src="images/information-button.png" alt="">
     </a>
-    <a href="#">
-      <img src="images/world-wide-web.png" alt="">
-    </a>
+    {{/if}}
   </footer>
 </div>
