@@ -1,8 +1,10 @@
-nav {
-  display: flex;
-  justify-content: space-around;
+.imprint__fcolor {
+  color: #d8b741;
 }
-button {
+.btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
   margin: 25px auto 25px auto;
   color: #311c03;
   border-radius: 20px;

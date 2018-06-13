@@ -1,0 +1,13 @@
+.headlines__class {
+  margin: 0px 0px 30px 0px;
+  color: #d8b741;
+  animation: pulse 4s ease;
+  @keyframes pulse {
+    0% {
+      color: rgb(249, 237, 194);
+    }
+    100% {
+      color: #d8b741;
+    }
+  }
+}

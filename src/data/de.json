@@ -7,7 +7,7 @@
       "image": "erinome.jpg",
       "genre": "electronika and organic",
       "location": "hamburg",
-      "description": "dj von der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
@@ -147,7 +147,7 @@
       "image": "wery.jpg",
       "genre": "photography graffiti",
       "location": "berlin",
-      "description": "writer der kdp crew",
+      "description": "writer defrom the kdp crew",
       "type": "art",
       "facebook": "https://www.facebook.com/stefan.sczostak",
       "example": "https://www.facebook.com/StefanSczostakPhotography/"
@@ -157,7 +157,7 @@
       "image": "angel10.jpg",
       "genre": "graffiti",
       "location": "south-germany",
-      "description": "writer der kdp crew",
+      "description": "writer from the kdp crew",
       "type": "art",
       "facebook": "https://www.facebook.com/Angel-10-411264865917855/",
       "example": ""
@@ -177,7 +177,7 @@
       "image": "presslufthanna.jpg",
       "genre": "rap",
       "location": "kiel",
-      "description": "politischer rap aus kiel",
+      "description": "femalerap from kielefornia",
       "type": "band",
       "facebook": "https://www.facebook.com/Presslufthanna/",
       "example": "https://soundcloud.com/presslufthanna"
@@ -187,7 +187,7 @@
       "image": "soma.jpg",
       "genre": "cosmo housemusic",
       "location": "kiel",
-      "description": "bekannt für cosmischen klang fern vom mainstream",
+      "description": "cosmic house music",
       "type": "dj",
       "facebook": "https://www.facebook.com/Presslufthanna/",
       "example": "https://soundcloud.com/somarausch"
@@ -207,7 +207,7 @@
       "image": "wobadub.jpg",
       "genre": "dub",
       "location": "kiel",
-      "description": "kommt mit seinen eigenen soundsystem daher um es so zu machen wie seine vorbilder von der insel. feinster dubsound aus kielefornia",
+      "description": "finest dubsoundsystem from kielefornia",
       "type": "dj",
       "facebook": "https://www.facebook.com/WobadubSoundsystem/",
       "example": "https://soundcloud.com/wobadubsoundsystem"
@@ -217,7 +217,7 @@
       "image": "mofan.jpg",
       "genre": "dnb dubstep",
       "location": "itzehoe",
-      "description": "dj der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
@@ -227,7 +227,7 @@
       "image": "minke.jpg",
       "genre": "deephouse",
       "location": "hamburg",
-      "description": "dj der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
@@ -237,7 +237,7 @@
       "image": "gyrgen.jpg",
       "genre": "electro cumbia",
       "location": "itzehoe",
-      "description": "dj der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
@@ -247,7 +247,7 @@
       "image": "cap.jpg",
       "genre": "electronica/ dub / dnb",
       "location": "hamburg",
-      "description": "dj der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "https://soundcloud.com/izcaptain/ubasteuert-tape"
@@ -256,8 +256,8 @@
       "name": "moritz schreyer",
       "image": "moe.jpg",
       "genre": "photography graffiti",
-      "location": "Hamburg",
-      "description": "writer der kdp crew",
+      "location": "hamburg",
+      "description": "writer from the kdp crew",
       "type": "art",
       "facebook": "https://www.facebook.com/moritz.laut",
       "example": "https://www.facebook.com/Leichtsinn-285338778146747/"
@@ -267,7 +267,7 @@
       "image": "seb.jpg",
       "genre": "techno deephouse electronica",
       "location": "hamburg",
-      "description": "dj bei bössebässe",
+      "description": "dj from bössebässe collective",
       "type": "dj",
       "facebook": "https://www.facebook.com/sebastian.kruger.754",
       "example": ""
@@ -327,7 +327,7 @@
       "image": "agu.jpg",
       "genre": "krautrock",
       "location": "Itzehoe",
-      "description": "klassischer krautrock landet wieder im 2. jahrtausend",
+      "description": "classic krautrock from the old days, but in the presence",
       "type": "band",
       "facebook": "https://www.facebook.com/agunggurung/",
       "example": "http://www.agung-gurung.de/"
@@ -356,17 +356,19 @@
       "name": "bootsvolk / schall und rausch",
       "image": "boots.png",
       "genre": "dj collective",
-      "location": "Itzehoe Hamburg",
+      "location": "itzehoe hamburg",
       "description": "ein unkommerzielles kollektiv das sich nicht nur um das reine auflegen kümmert sonder auch um gestaltung jeglicher art",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
     }
   ],
-  "imprint": {
-    "title": "Impressum",
-    "text": "Das ist das Impressum"
-  },
+  "imprint": [
+    {
+      "title": "Impressum",
+      "text": ""
+    }
+  ],
   "headlines": [
     {
       "className": "all",

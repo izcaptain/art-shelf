@@ -1,6 +1,8 @@
-.header {
-  //align-items: center;
-  background: lightgrey;
+.header > h1 {
+  color: rgb(49, 28, 3);
+  font-family: 'Lobster', cursive;
+  font-size: 300%;
+  background: #ffe897;
   display: flex;
   justify-content: center;
   padding: 20px;

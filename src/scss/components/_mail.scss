@@ -1,8 +1,18 @@
-nav {
-  display: flex;
-  justify-content: space-around;
+.mail__style {
+  margin: 10% auto auto auto;
+  font: 16px sans-serif;
+  align-content: center;
 }
-button {
+h1 {
+  color: #d8b741;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
   margin: 25px auto 25px auto;
   color: #311c03;
   border-radius: 20px;
