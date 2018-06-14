@@ -361,6 +361,16 @@
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
+    },
+    {
+      "name": "madlubi",
+      "image": "lubi.jpg",
+      "genre": "worldmusic organic",
+      "location": "berlin",
+      "description": "",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/madlubi.ubahn",
+      "example": "https://soundcloud.com/madlubi"
     }
   ],
   "imprint": [

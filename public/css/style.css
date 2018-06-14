@@ -6311,7 +6311,7 @@ h4 {
   margin: 0 auto;
   columns: 1;
   width: 100%;
-  transition: all 0.5s ease; }
+  transition: all 0.9s ease; }
   @media (min-width: 580px) {
     .artist-list {
       columns: 2; } }
@@ -6386,7 +6386,7 @@ h1 {
 .headlines__class {
   margin: 0px 0px 30px 0px;
   color: #d8b741;
-  animation: pulse 7s ease; }
+  animation: pulse 4s ease; }
 
 @keyframes pulse {
   0% {
