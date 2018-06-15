@@ -6304,14 +6304,23 @@ h1 {
 [hidden] {
   display: none; }
 
-.header {
+header {
   font-family: 'Lobster', cursive;
-  font-size: 300%;
   background: #ffe897;
+  display: flex;
+  justify-content: center;
+  color: #311c03; }
+
+.header__headline {
+  text-decoration: none;
+  font-size: 3.5em;
   display: flex;
   justify-content: center;
   padding: 20px;
   color: #311c03; }
+
+a:hover {
+  text-decoration: none; }
 
 .artist-list {
   margin: 0 auto;
