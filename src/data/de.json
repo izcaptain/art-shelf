@@ -7,7 +7,7 @@
       "image": "erinome.jpg",
       "genre": "electronika and organic",
       "location": "hamburg",
-      "description": "dj von der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
@@ -107,7 +107,8 @@
       "image": "mona.jpg",
       "genre": "painting",
       "location": "frankreich",
-      "description": "angehende künstlerin die sich mit verschiedensten mitteln und techniken auseinader setzt",
+      "description":
+        "angehende künstlerin die sich mit verschiedensten mitteln und techniken auseinader setzt",
       "type": "art",
       "facebook": "https://www.facebook.com/mona.wiegers",
       "example": ""
@@ -117,7 +118,8 @@
       "image": "zint.jpg",
       "genre": "art painting ect",
       "location": "itzehoe",
-      "description": "seine werken beinhalten mehr als nur ein style oder schöpfungsart. das gesamt werk eine illusion die geschaffen wurde, um daran zu glauben.",
+      "description":
+        "seine werken beinhalten mehr als nur ein style oder schöpfungsart. das gesamt werk eine illusion die geschaffen wurde, um daran zu glauben.",
       "type": "art",
       "facebook": "https://www.facebook.com/manuel.zint",
       "example": "http://www.manuelzint.de/arbeiten.html"
@@ -147,7 +149,7 @@
       "image": "wery.jpg",
       "genre": "photography graffiti",
       "location": "berlin",
-      "description": "writer der kdp crew",
+      "description": "writer defrom the kdp crew",
       "type": "art",
       "facebook": "https://www.facebook.com/stefan.sczostak",
       "example": "https://www.facebook.com/StefanSczostakPhotography/"
@@ -157,7 +159,7 @@
       "image": "angel10.jpg",
       "genre": "graffiti",
       "location": "south-germany",
-      "description": "writer der kdp crew",
+      "description": "writer from the kdp crew",
       "type": "art",
       "facebook": "https://www.facebook.com/Angel-10-411264865917855/",
       "example": ""
@@ -167,7 +169,8 @@
       "image": "vollkaputt.jpg",
       "genre": "rap",
       "location": "hamburg",
-      "description": "man munkelt ob arno dübel es sich bei vollka putt abgeguckt hat oder umgekehrt",
+      "description":
+        "man munkelt ob arno dübel es sich bei vollka putt abgeguckt hat oder umgekehrt",
       "type": "band",
       "facebook": "https://www.facebook.com/VollkaPutt.Hamburg/",
       "example": "https://soundcloud.com/presslufthanna"
@@ -177,7 +180,7 @@
       "image": "presslufthanna.jpg",
       "genre": "rap",
       "location": "kiel",
-      "description": "politischer rap aus kiel",
+      "description": "femalerap from kielefornia",
       "type": "band",
       "facebook": "https://www.facebook.com/Presslufthanna/",
       "example": "https://soundcloud.com/presslufthanna"
@@ -187,7 +190,7 @@
       "image": "soma.jpg",
       "genre": "cosmo housemusic",
       "location": "kiel",
-      "description": "bekannt für cosmischen klang fern vom mainstream",
+      "description": "cosmic house music",
       "type": "dj",
       "facebook": "https://www.facebook.com/Presslufthanna/",
       "example": "https://soundcloud.com/somarausch"
@@ -207,7 +210,7 @@
       "image": "wobadub.jpg",
       "genre": "dub",
       "location": "kiel",
-      "description": "kommt mit seinen eigenen soundsystem daher um es so zu machen wie seine vorbilder von der insel. feinster dubsound aus kielefornia",
+      "description": "finest dubsoundsystem from kielefornia",
       "type": "dj",
       "facebook": "https://www.facebook.com/WobadubSoundsystem/",
       "example": "https://soundcloud.com/wobadubsoundsystem"
@@ -217,7 +220,7 @@
       "image": "mofan.jpg",
       "genre": "dnb dubstep",
       "location": "itzehoe",
-      "description": "dj der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
@@ -227,7 +230,7 @@
       "image": "minke.jpg",
       "genre": "deephouse",
       "location": "hamburg",
-      "description": "dj der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
@@ -237,7 +240,7 @@
       "image": "gyrgen.jpg",
       "genre": "electro cumbia",
       "location": "itzehoe",
-      "description": "dj der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
@@ -247,7 +250,7 @@
       "image": "cap.jpg",
       "genre": "electronica/ dub / dnb",
       "location": "hamburg",
-      "description": "dj der bootsvolk crew",
+      "description": "dj from the bootsvolk crew",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "https://soundcloud.com/izcaptain/ubasteuert-tape"
@@ -256,8 +259,8 @@
       "name": "moritz schreyer",
       "image": "moe.jpg",
       "genre": "photography graffiti",
-      "location": "Hamburg",
-      "description": "writer der kdp crew",
+      "location": "hamburg",
+      "description": "writer from the kdp crew",
       "type": "art",
       "facebook": "https://www.facebook.com/moritz.laut",
       "example": "https://www.facebook.com/Leichtsinn-285338778146747/"
@@ -267,7 +270,7 @@
       "image": "seb.jpg",
       "genre": "techno deephouse electronica",
       "location": "hamburg",
-      "description": "dj bei bössebässe",
+      "description": "dj from bössebässe collective",
       "type": "dj",
       "facebook": "https://www.facebook.com/sebastian.kruger.754",
       "example": ""
@@ -277,7 +280,8 @@
       "image": "fkk.jpg",
       "genre": "community for music/ cinema/ art",
       "location": "kiel",
-      "description": "pflegt und hegt ein autarkes mobiles fahrradkino... und noch vieles mehr",
+      "description":
+        "pflegt und hegt ein autarkes mobiles fahrradkino... und noch vieles mehr",
       "type": "art",
       "facebook": "https://www.facebook.com/fahrradkinokombinat/",
       "example": "http://fahrradkinokombinat.blogsport.eu/"
@@ -287,7 +291,8 @@
       "image": "ddob.jpg",
       "genre": "beatproducer",
       "location": "kiel",
-      "description": "junger beatbauer mit großen talent, sehr klassische hiphop beats zu bauen",
+      "description":
+        "junger beatbauer mit großen talent, sehr klassische hiphop beats zu bauen",
       "type": "band",
       "facebook": "https://www.facebook.com/DoubleDob/",
       "example": "https://soundcloud.com/ddobe"
@@ -327,7 +332,7 @@
       "image": "agu.jpg",
       "genre": "krautrock",
       "location": "Itzehoe",
-      "description": "klassischer krautrock landet wieder im 2. jahrtausend",
+      "description": "classic krautrock from the old days, but in the presence",
       "type": "band",
       "facebook": "https://www.facebook.com/agunggurung/",
       "example": "http://www.agung-gurung.de/"
@@ -356,17 +361,30 @@
       "name": "bootsvolk / schall und rausch",
       "image": "boots.png",
       "genre": "dj collective",
-      "location": "Itzehoe Hamburg",
-      "description": "ein unkommerzielles kollektiv das sich nicht nur um das reine auflegen kümmert sonder auch um gestaltung jeglicher art",
+      "location": "itzehoe hamburg",
+      "description":
+        "ein unkommerzielles kollektiv das sich nicht nur um das reine auflegen kümmert sonder auch um gestaltung jeglicher art",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
+    },
+    {
+      "name": "madlubi",
+      "image": "lubi.jpg",
+      "genre": "worldmusic organic",
+      "location": "berlin",
+      "description": "",
+      "type": "dj",
+      "facebook": "https://www.facebook.com/madlubi.ubahn",
+      "example": "https://soundcloud.com/madlubi"
     }
   ],
-  "imprint": {
-    "title": "Impressum",
-    "text": "Das ist das Impressum"
-  },
+  "imprint": [
+    {
+      "title": "Impressum",
+      "text": ""
+    }
+  ],
   "headlines": [
     {
       "className": "all",
@@ -388,19 +406,19 @@
   "footerline": [
     {
       "key": "all",
-      "string": "...du hast zu tief gescrollt!!!"
+      "string": "...no more artists..."
     },
     {
       "key": "dj hidden",
-      "string": "...hier gibt es nicht mehr zu sehen, bitte gehen sie weiter!"
+      "string": "...no more djs..."
     },
     {
       "key": "band hidden",
-      "string": "guck in die luft"
+      "string": "...no more bands..."
     },
     {
       "key": "art hidden",
-      "string": "ab hier beginnt der untergrund"
+      "string": "...no more artists..."
     }
   ]
 }

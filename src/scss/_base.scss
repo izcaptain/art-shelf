@@ -1,9 +1,19 @@
 // add geheral styles for elements like body, h1-h6, p, a ... here
 body {
   font-family: 'Song Myung', serif;
+  color: #d8b741;
+  background-color: #143a52;
 }
 h4 {
   display: flex;
   justify-content: center;
-  //align-content: center;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
 }

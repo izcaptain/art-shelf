@@ -61,7 +61,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 // Add a line for each new route here:
 app.use('/', require('./src/routes/index'))
 app.use('/impressum', require('./src/routes/imprint'))
-
+app.use('/newsletter', require('./src/routes/mail'))
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404))
