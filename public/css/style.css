@@ -6284,28 +6284,34 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: 'Song Myung', serif;
-  background-color: #143a52;
-  color: #4b533b; }
+  color: #d8b741;
+  background-color: #143a52; }
 
 h4 {
   display: flex;
   justify-content: center; }
 
-.imprint__p {
-  margin-top: 5%; }
+a:hover {
+  text-decoration: none; }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none; }
 
 .hidden,
 [hidden] {
   display: none; }
 
-.header > h1 {
-  color: #311c03;
+.header {
   font-family: 'Lobster', cursive;
   font-size: 300%;
   background: #ffe897;
   display: flex;
   justify-content: center;
-  padding: 20px; }
+  padding: 20px;
+  color: #311c03; }
 
 .artist-list {
   margin: 0 auto;
@@ -6361,12 +6367,6 @@ button {
   font: 16px sans-serif;
   align-content: center; }
 
-h1 {
-  color: #d8b741;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
-
 .btn {
   text-decoration: none;
   display: flex;
@@ -6382,6 +6382,11 @@ h1 {
   background: linear-gradient(#fff1bc, #fcd877);
   box-shadow: inset 0 5px 10px 0 #ffffff;
   text-decoration: none; }
+
+.mail__secondheader {
+  display: flex;
+  justify-content: center;
+  color: #d8b741; }
 
 .headlines__class {
   margin: 0px 0px 30px 0px;
@@ -6412,6 +6417,9 @@ h1 {
   background: linear-gradient(#fff1bc, #fcd877);
   box-shadow: inset 0 5px 10px 0 #ffffff;
   text-decoration: none; }
+
+.imprint__p {
+  margin-top: 5%; }
 
 h4 {
   display: flex;
