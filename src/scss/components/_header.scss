@@ -1,9 +1,19 @@
-.header {
+header {
   font-family: 'Lobster', cursive;
-  font-size: 300%;
   background: #ffe897;
+  display: flex;
+  justify-content: center;
+
+  color: rgb(49, 28, 3);
+}
+.header__headline {
+  text-decoration: none;
+  font-size: 3.5em;
   display: flex;
   justify-content: center;
   padding: 20px;
   color: rgb(49, 28, 3);
+}
+a:hover {
+  text-decoration: none;
 }
