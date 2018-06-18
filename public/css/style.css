@@ -6304,6 +6304,10 @@ h1 {
 [hidden] {
   display: none; }
 
+.backi {
+  background-repeat: repeat;
+  background-repeat: round; }
+
 header {
   font-family: 'Lobster', cursive;
   background: #ffe897;
@@ -6321,6 +6325,16 @@ header {
 
 a:hover {
   text-decoration: none; }
+
+.header__class {
+  color: #311c03;
+  animation: pulse 1s linear; }
+
+@keyframes pulse {
+  100% {
+    color: #311c03; }
+  100% {
+    color: #d8b741; } }
 
 .artist-list {
   margin: 0 auto;

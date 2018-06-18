@@ -17,3 +17,15 @@ header {
 a:hover {
   text-decoration: none;
 }
+.header__class {
+  color: rgb(49, 28, 3);
+  animation: pulse 1s linear;
+  @keyframes pulse {
+    100% {
+      color: rgb(49, 28, 3);
+    }
+    100% {
+      color: #d8b741;
+    }
+  }
+}
