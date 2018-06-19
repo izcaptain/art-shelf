@@ -2,8 +2,32 @@
 body {
   font-family: 'Song Myung', serif;
   color: #d8b741;
-  background-color: #143a52;
+  //background-color: #143a52;
+  background: linear-gradient(
+    45deg,
+    #143a52,
+    #136090,
+    #0b0c46,
+    #274e66,
+    #143a52
+  );
+  background-size: 400% 400%;
+
+  animation: Gradient 15s infinite;
 }
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 h4 {
   display: flex;
   justify-content: center;

@@ -6285,7 +6285,17 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: 'Song Myung', serif;
   color: #d8b741;
-  background-color: #143a52; }
+  background: linear-gradient(45deg, #143a52, #136090, #0b0c46, #274e66, #143a52);
+  background-size: 400% 400%;
+  animation: Gradient 15s infinite; }
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 h4 {
   display: flex;
@@ -6456,78 +6466,5 @@ h4 {
   justify-content: space-around;
   text-decoration: none;
   margin: 30px 30px 30px 30px; }
-
-/* Advanced Checkbox Hack */
-body {
-  display: hidden;
-  animation: bugfix infinite 1s; }
-
-@keyframes bugfix {
-  from {
-    padding: 0; }
-  to {
-    padding: 0; } }
-
-input[type='checkbox'] {
-  position: absolute;
-  top: -9999px;
-  left: -9999px; }
-
-label {
-  display: none;
-  cursor: pointer; }
-
-/* custom-dropdown */
-nav[role='custom-dropdown'] {
-  width: 100%; }
-
-.navburger_class {
-  display: flex;
-  justify-content: space-between; }
-
-ul {
-  width: 100%;
-  list-style: none;
-  margin: 10px; }
-  ul > li {
-    width: 19%;
-    text-align: center;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
-    cursor: pointer; }
-    ul > li:hover {
-      background-color: rgba(0, 0, 0, 0.85);
-      color: #fff;
-      box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.35), inset 0 0 0 2em rgba(0, 0, 0, 0.3);
-      text-decoration: none; }
-      ul > li:hover > a {
-        color: #fff; }
-
-/* small screens */
-@media screen and (max-width: 44em) {
-  html,
-  body {
-    margin: 0; }
-  nav[role='custom-dropdown'] ul {
-    display: none;
-    height: 100%; }
-  nav[role='custom-dropdown'] label {
-    display: block;
-    font-size: 2em;
-    margin: 0;
-    border: 0.15em solid rgba(60, 60, 60, 0.2); }
-  nav[role='custom-dropdown'] label:after {
-    right: 2em;
-    top: 0;
-    content: '\2261';
-    font-size: 2em; }
-  nav[role='custom-dropdown'] input[type='checkbox']:checked ~ label:after {
-    color: #222; }
-  nav[role='custom-dropdown'] input[type='checkbox']:checked ~ ul {
-    display: block; }
-    nav[role='custom-dropdown'] input[type='checkbox']:checked ~ ul > li {
-      width: 100%;
-      opacity: 0.8;
-      text-align: left; } }
 
 /*# sourceMappingURL=style.css.map */
