@@ -47,7 +47,7 @@
       "image": "loyft.jpg",
       "genre": "stonerrock",
       "location": "itzehoe",
-      "description": "loyft die stonerband aus dem norden",
+      "description": "loyft die stonerband from the north",
       "type": "band",
       "facebook": "https://www.facebook.com/loyft69/",
       "example": "https://www.youtube.com/watch?v=FUr8N_C-DEU"
@@ -57,7 +57,7 @@
       "image": "baconanas.png",
       "genre": "garagrock",
       "location": "glückstadt",
-      "description": "garagerock aus den norddeutschen hinterland",
+      "description": "garage rock aus dem norddeutschen hinterland",
       "type": "band",
       "facebook": "https://www.facebook.com/thebaconanas/",
       "example": "https://www.youtube.com/watch?v=ojc3Tl3hNmI"
@@ -77,7 +77,7 @@
       "image": "andrewelt.jpg",
       "genre": "Liedermacher",
       "location": "berlin",
-      "description": "liedermacher mit einer eigener weltansicht",
+      "description": "",
       "type": "band",
       "facebook": "https://www.facebook.com/andre.welt.1",
       "example": "https://soundcloud.com/andrewelt/konigin-der-nacht"
@@ -87,7 +87,7 @@
       "image": "aktion.jpg",
       "genre": "graffiti",
       "location": "Itzehoe",
-      "description": "writer der kdp crew",
+      "description": "writer from the kdp crew",
       "type": "art",
       "facebook": "https://www.facebook.com/tommy.nyssen",
       "example": ""
@@ -149,7 +149,7 @@
       "image": "wery.jpg",
       "genre": "photography graffiti",
       "location": "berlin",
-      "description": "writer defrom the kdp crew",
+      "description": "writer from the kdp crew",
       "type": "art",
       "facebook": "https://www.facebook.com/stefan.sczostak",
       "example": "https://www.facebook.com/StefanSczostakPhotography/"
@@ -332,7 +332,7 @@
       "image": "agu.jpg",
       "genre": "krautrock",
       "location": "Itzehoe",
-      "description": "classic krautrock from the old days, but in the presence",
+      "description": "classic krautrock from the old days",
       "type": "band",
       "facebook": "https://www.facebook.com/agunggurung/",
       "example": "http://www.agung-gurung.de/"
@@ -342,7 +342,7 @@
       "image": "w.jpg",
       "genre": "funk/ soul",
       "location": "hamburg",
-      "description": "classic music from the northcoast",
+      "description": "classic raw funk and soul music",
       "type": "dj",
       "facebook": "https://www.facebook.com/Wizeman72",
       "example": ""
@@ -362,8 +362,7 @@
       "image": "boots.png",
       "genre": "dj collective",
       "location": "itzehoe hamburg",
-      "description":
-        "ein unkommerzielles kollektiv das sich nicht nur um das reine auflegen kümmert sonder auch um gestaltung jeglicher art",
+      "description": "collective for music, decoration and art",
       "type": "dj",
       "facebook": "https://www.facebook.com/surizb/",
       "example": "http://bootsvolk.de/"
