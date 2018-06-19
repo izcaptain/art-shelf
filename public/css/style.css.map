@@ -93,6 +93,7 @@
 		"../../src/scss/components/_mail.scss",
 		"../../src/scss/components/_headlines.scss",
 		"../../src/scss/components/_imprint.scss",
+
 		"../../src/scss/components/_footer.scss"
 	],
 	"names": [],
