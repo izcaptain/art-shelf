@@ -6304,14 +6304,37 @@ h1 {
 [hidden] {
   display: none; }
 
-.header {
+.backi {
+  background-repeat: repeat;
+  background-repeat: round; }
+
+header {
   font-family: 'Lobster', cursive;
-  font-size: 300%;
   background: #ffe897;
+  display: flex;
+  justify-content: center;
+  color: #311c03; }
+
+.header__headline {
+  text-decoration: none;
+  font-size: 3.5em;
   display: flex;
   justify-content: center;
   padding: 20px;
   color: #311c03; }
+
+a:hover {
+  text-decoration: none; }
+
+.header__class {
+  color: #311c03;
+  animation: pulse 1s linear; }
+
+@keyframes pulse {
+  100% {
+    color: #311c03; }
+  100% {
+    color: #d8b741; } }
 
 .artist-list {
   margin: 0 auto;
