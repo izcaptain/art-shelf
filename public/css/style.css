@@ -6300,6 +6300,39 @@ h1 {
   flex-wrap: wrap;
   text-decoration: none; }
 
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0; }
+  .banner .img-container {
+    height: 70vh;
+    position: relative; }
+    .banner .img-container img {
+      height: 100%; }
+    .banner .img-container:after {
+      cursor: pointer;
+      content: 'X';
+      color: white;
+      box-shadow: inset 0 5px 10px 0 #ffffff;
+      box-shadow: inset 0 -5px 10px 0 black;
+      font-size: 1.5em;
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #ff0318;
+      padding: 10px;
+      text-align: center;
+      line-height: 32px; }
+
 .hidden,
 [hidden] {
   display: none; }
@@ -6456,78 +6489,5 @@ h4 {
   justify-content: space-around;
   text-decoration: none;
   margin: 30px 30px 30px 30px; }
-
-/* Advanced Checkbox Hack */
-body {
-  display: hidden;
-  animation: bugfix infinite 1s; }
-
-@keyframes bugfix {
-  from {
-    padding: 0; }
-  to {
-    padding: 0; } }
-
-input[type='checkbox'] {
-  position: absolute;
-  top: -9999px;
-  left: -9999px; }
-
-label {
-  display: none;
-  cursor: pointer; }
-
-/* custom-dropdown */
-nav[role='custom-dropdown'] {
-  width: 100%; }
-
-.navburger_class {
-  display: flex;
-  justify-content: space-between; }
-
-ul {
-  width: 100%;
-  list-style: none;
-  margin: 10px; }
-  ul > li {
-    width: 19%;
-    text-align: center;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
-    cursor: pointer; }
-    ul > li:hover {
-      background-color: rgba(0, 0, 0, 0.85);
-      color: #fff;
-      box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.35), inset 0 0 0 2em rgba(0, 0, 0, 0.3);
-      text-decoration: none; }
-      ul > li:hover > a {
-        color: #fff; }
-
-/* small screens */
-@media screen and (max-width: 44em) {
-  html,
-  body {
-    margin: 0; }
-  nav[role='custom-dropdown'] ul {
-    display: none;
-    height: 100%; }
-  nav[role='custom-dropdown'] label {
-    display: block;
-    font-size: 2em;
-    margin: 0;
-    border: 0.15em solid rgba(60, 60, 60, 0.2); }
-  nav[role='custom-dropdown'] label:after {
-    right: 2em;
-    top: 0;
-    content: '\2261';
-    font-size: 2em; }
-  nav[role='custom-dropdown'] input[type='checkbox']:checked ~ label:after {
-    color: #222; }
-  nav[role='custom-dropdown'] input[type='checkbox']:checked ~ ul {
-    display: block; }
-    nav[role='custom-dropdown'] input[type='checkbox']:checked ~ ul > li {
-      width: 100%;
-      opacity: 0.8;
-      text-align: left; } }
 
 /*# sourceMappingURL=style.css.map */
