@@ -10040,6 +10040,52 @@ module.exports = function (module) {
 
 /***/ }),
 
+/***/ "./src/js/Banner.js":
+/*!**************************!*\
+  !*** ./src/js/Banner.js ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _helpers = __webpack_require__(/*! ./utils/helpers.js */ "./src/js/utils/helpers.js");
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Banner = function () {
+  function Banner(sel) {
+    var _this = this;
+
+    _classCallCheck(this, Banner);
+
+    this.el = (0, _helpers.getOne)(sel);
+    this.el.addEventListener('click', function (e) {
+      return _this.removeBanner();
+    });
+  }
+
+  _createClass(Banner, [{
+    key: 'removeBanner',
+    value: function removeBanner() {
+      this.el.remove();
+    }
+  }]);
+
+  return Banner;
+}();
+
+exports.default = Banner;
+
+/***/ }),
+
 /***/ "./src/js/FilterButtons.js":
 /*!*********************************!*\
   !*** ./src/js/FilterButtons.js ***!
@@ -10138,9 +10184,14 @@ var _FilterButtons = __webpack_require__(/*! ./FilterButtons.js */ "./src/js/Fil
 
 var _FilterButtons2 = _interopRequireDefault(_FilterButtons);
 
+var _Banner = __webpack_require__(/*! ./Banner.js */ "./src/js/Banner.js");
+
+var _Banner2 = _interopRequireDefault(_Banner);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var filterButtons = new _FilterButtons2.default('[data-filter-buttons]');
+new _FilterButtons2.default('[data-filter-buttons]');
+new _Banner2.default('.banner');
 
 /***/ }),
 

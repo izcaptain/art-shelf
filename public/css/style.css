@@ -6285,17 +6285,7 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: 'Song Myung', serif;
   color: #d8b741;
-  background: linear-gradient(45deg, #143a52, #136090, #0b0c46, #274e66, #143a52);
-  background-size: 400% 400%;
-  animation: Gradient 15s infinite; }
-
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
+  background-color: #143a52; }
 
 h4 {
   display: flex;
@@ -6309,6 +6299,39 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   text-decoration: none; }
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0; }
+  .banner .img-container {
+    height: 70vh;
+    position: relative; }
+    .banner .img-container img {
+      height: 100%; }
+    .banner .img-container:after {
+      cursor: pointer;
+      content: 'X';
+      color: white;
+      box-shadow: inset 0 5px 10px 0 #ffffff;
+      box-shadow: inset 0 -5px 10px 0 black;
+      font-size: 1.5em;
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #ff0318;
+      padding: 10px;
+      text-align: center;
+      line-height: 32px; }
 
 .hidden,
 [hidden] {
